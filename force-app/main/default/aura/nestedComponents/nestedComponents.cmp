@@ -1,0 +1,22 @@
+<aura:component >
+<!--
+    <aura:attribute name="edit" type="Boolean" default="true " />
+    <aura:if isTrue="{!v.edit}">
+        <ui:button label="Submit" />
+    <aura:set attribute='else'>
+    	Hi This is Suneeth
+    </aura:set>
+  	</aura:if>
+-->
+    
+    Browser is on a tablet : {!$Browser.isTablet} <br></br>
+    is it running on Iphone: {!$Browser.isPhone} <br></br>
+    is it running on Android: {!$Browser.isAndroid} <br></br>
+    Where I am running: {!$Browser.formFactor} <br></br>
+    language: {!$Locale.language} <br></br>
+    {!$Locale.timezone} <br></br>
+
+    {!$Locale.numberFormat} <br></br>
+
+    {!$Locale.currencyFormat} <br></br>
+</aura:component>

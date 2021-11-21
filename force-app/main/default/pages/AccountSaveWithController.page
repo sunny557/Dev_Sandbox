@@ -1,0 +1,18 @@
+<apex:page controller="AccountSaveCls">
+    <apex:form >
+        <apex:pageblock title="Account Information">
+            <apex:pageBlockSection title="Institue Information">
+                <apex:inputField value="{!actobj.Name}"/>
+                <apex:inputField value="{!actobj.Type}"/>
+                <apex:inputField value="{!actobj.Rating}"/>                
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Additional Information">
+                <apex:inputField value="{!actobj.CustomerPriority__c}"/>
+                <apex:inputField value="{!actobj.NumberofLocations__c}"/>
+                <apex:inputField value="{!actobj.SLAExpirationDate__c}"/>                 
+            </apex:pageBlockSection>
+            <apex:commandButton value="Save" action="{!saveAccount}"/>
+        </apex:pageblock>
+    </apex:form>
+
+</apex:page>

@@ -1,0 +1,11 @@
+<apex:page Sidebar="FALSE" showHeader="false">
+  <!-- Begin Default Content REMOVE THIS --> 
+  <apex:form >
+      <apex:pageBlock title="Education System">
+          <apex:PageBlockSection >
+              <p>Welcome to Indian Education system </p>
+          </apex:PageBlockSection>
+      </apex:pageBlock>
+  </apex:form>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

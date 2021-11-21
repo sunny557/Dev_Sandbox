@@ -1,0 +1,11 @@
+<aura:component >
+	<div class ="White">
+    	Hello, Html
+    </div>
+    <h2>Checkout The Style in the list</h2>
+    <ul>
+    	<li class="Orange">I am Orange</li>
+        <li Class="blue">I am Blue</li>
+        <li Class="red"> I am Red</li>
+    </ul>
+</aura:component>
